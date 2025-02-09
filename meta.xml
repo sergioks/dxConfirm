@@ -1,0 +1,17 @@
+<meta>
+    <info author="Sergioks" name="dx-confirmation" description="Interfaz simple realizada en dx en la cual podras mostrar una interfaz de confirmacion" />
+        <script src="ui.lua" type="client" cache="false" />
+
+
+        <!--
+            Syntax: dxConfirm(title or false, description or false, functionVar, args...)
+            Example: dxConfirm("Confirmación", "¿Estás seguro de que quieres hacer esto?", myFunction, "Hola Mundo")
+
+            VARIABLES:
+                title: string (or false) - El titulo de la ventana de confirmación
+                description: string (or false) - La descripción de la ventana de confirmación
+                functionVar: function variable - La función que se ejecutará si el usuario acepta
+                args: vars - Los argumentos que se pasarán a la función
+        -->
+        <export function="dxConfirm" type="client" />
+</meta>
