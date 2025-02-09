@@ -19,6 +19,7 @@ function drawConfirmUI()
         if animationProgress == 0 then
             isUIVisible = false
             removeEventHandler("onClientRender", root, drawConfirmUI)
+            removeEventHandler("onClientClick", root, handleUIMouseClick)
             return
         end
     else
