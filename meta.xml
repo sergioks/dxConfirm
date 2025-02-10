@@ -1,6 +1,6 @@
 <meta>
     <info author="Sergioks" name="dx-confirmation" description="Interfaz simple realizada en dx en la cual podras mostrar una interfaz de confirmacion" />
-        <script src="ui.lua" type="client" cache="false" />
+        <script src="client.lua" type="client" cache="false" />
 
 
         <!--
