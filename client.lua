@@ -77,8 +77,8 @@ function dxConfirm(title, description, funcYes, ...)
     animationProgress = 0
     targetFuncYes = funcYes
     targetFuncYesArgs = {...} -- Almacenar los argumentos para la función
-    UI_Title = title and title;
-    UI_Description = description and description;
+    UI_Title = title and title or UI_Title;
+    UI_Description = description and description or UI_Description;
     showCursor(true)
     playSoundFrontEnd(13)
     addEventHandler("onClientRender", root, drawConfirmUI)
