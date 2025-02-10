@@ -13,8 +13,9 @@ Tal y como lo explica su titulo, este sistema muestra una interfaz para confirma
 ### EJEMPLO PRACTICO
 ```
 function myFunction(var1, var2)
-
-
+    outputChatBox("¡Haz presionado que si!")
+    outputChatBox("var1: "..var1)
+    outputChatBox("var2: "..var2)
 end
-dxConfirm("Confirmacion", , function funcYes, ...)
+dxConfirm("Confirmacion", "¿Estas seguro?", myFunction, "hola mundo!", 15);
 ```
