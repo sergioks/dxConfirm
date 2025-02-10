@@ -19,3 +19,6 @@ function myFunction(var1, var2)
 end
 dxConfirm("Confirmacion", "¿Estas seguro?", myFunction, "hola mundo!", 15);
 ```
+### IMAGEN DE LA INTERFAZ
+
+![Interfaz de Confirmacion](https://i.imgur.com/ERHthpa.png)
